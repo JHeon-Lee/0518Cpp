@@ -14,7 +14,7 @@ double findAverage(int count, ...) // 인자값이 변할 수 있음을 표현
 	va_start(lists, count); // ...의 크기 지정
 
 	for (int arg = 0; arg < count; arg++)
-		sum += va_arg(lists, int); // 어떤 자료형만큼 움직이면서 lists를 체크
+		sum += va_arg(lists, int); // 지정한 자료형 크기만큼 움직이면서 lists를 체크
 
 	va_end(lists); // 동적할당 해제와 비슷함
 

@@ -22,7 +22,7 @@ int main()
 
 	assert(x != 0 && "x is 0"); // false 일 경우 프로그램을 터뜨림, && 뒤에 터졌을때 안내문구 기입 가능
 
-	// static_assert(flase);  컴파일 타임에서 오류잡히게 해줌
+	// static_assert(false);  컴파일 타임에서 오류잡히게 해줌
 
 	const int x1 = 6;
 	const int y1 = 7;
